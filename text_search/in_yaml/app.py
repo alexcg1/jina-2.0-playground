@@ -1,7 +1,9 @@
 import pretty_errors
-from helper import docs, Capitalizer
+from helper import docs
 from executors import MyIndexer, MyTransformer
-from jina import Flow
+from jina import Flow, Executor
+
+Capitalizer = Executor.load_config('execs/capitalizer.yml')
 
 
 flow = Flow.load_config('flow.yml')

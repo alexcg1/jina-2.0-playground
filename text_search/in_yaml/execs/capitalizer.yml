@@ -1,0 +1,8 @@
+jtype: MyExecutor
+metas:
+  py_modules:
+    - capitalizer.py
+  name: capitalizer
+  description: converts everything to upper case
+requests:
+  /random_work: capitalize
