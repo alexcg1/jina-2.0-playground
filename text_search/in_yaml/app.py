@@ -5,7 +5,6 @@ from jina import Flow, Executor
 
 Capitalizer = Executor.load_config('execs/capitalizer.yml')
 
-
 flow = Flow.load_config('flow.yml')
 
 with flow:
