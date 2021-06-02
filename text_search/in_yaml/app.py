@@ -1,7 +1,7 @@
 import pretty_errors
 from helper import docs, Capitalizer
 from executors import MyIndexer, MyTransformer
-from jina import Flow, Document, DocumentArray, Executor, requests
+from jina import Flow
 
 
 flow = Flow.load_config('flow.yml')
