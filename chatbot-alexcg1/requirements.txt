@@ -1,0 +1,4 @@
+jina[http]
+transformers
+torch
+pretty_errors
