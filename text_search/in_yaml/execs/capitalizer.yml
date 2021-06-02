@@ -1,4 +1,4 @@
-jtype: MyExecutor
+jtype: Capitalizer
 metas:
   py_modules:
     - capitalizer.py
