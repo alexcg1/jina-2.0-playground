@@ -8,6 +8,8 @@ class Capitalizer(Executor):
     def capitalize(self, docs, *args, **kwargs):
         for doc in docs:
             doc.text = doc.text.upper()
+            for chunk in doc.chunks:
+                chunk.text = chunk.text.upper()
 
 
 superman = Document(
