@@ -1,0 +1,8 @@
+jtype: Flow
+executors:
+  - name: capitalizer
+    uses: Capitalizer
+  - name: encoder
+    uses: MyTransformer
+  - name: indexer
+    uses: MyIndexer
